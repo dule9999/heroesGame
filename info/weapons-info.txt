@@ -1,0 +1,15 @@
+WEAPONS
+
+Any weapon object structure: {name: Name, (for weapons dmg, for armor def), dmg/def: Damage/Defense number, stats: {stat1: +number%, stat2: +number%}}
+
+-Common - does not have any additional stats.
+ e.g.: {name: Rusty Iron Axe, dmg: 5, stats: null}; {name: Simple Wooden Wand, dmg: 1, stats: null}, {name: Simple Leather Armor, def: 5, stats: null}
+
+-Rare - has one additional stat.
+ e.g.: {name: Steel Axe, dmg: 10, stats: {armorPiercing: +20%}}; {name: Ebony Staff, dmg: 6, stats: {fireSpells: +20%}}, {name: Mail Armor, def: 10, stats: {evasion: +10%}}
+
+-Magic - two additional stats and more powerful than rare items.
+ e.g.: {name: Mace of Terror, dmg: 18, stats: {armorPiercing: +30%, fireDmg: +5}; {name: Armor of the Sun, def: 15, stats: {fireResistance: +15, coldResistance: +15}}
+
+-Legendary - three or more additional stats, more powerful than magic items.
+ e.g.: {name: Plate Armor of Etherealness, def: 33, stats: {poisonResistance: +30, projectileResistance: +30%, str: +10}}

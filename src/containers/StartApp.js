@@ -9,9 +9,9 @@ import {
 import { withRouter } from "react-router";
 
 class StartApp extends React.PureComponent {
-    openFirstLocation = () => {
-        if (this.props.location.pathname !== '/location/0') {
-            this.props.history.push({ pathname: '/location/0' })
+    openHeroSelection = () => {
+        if (this.props.location.pathname !== '/heroSelection') {
+            this.props.history.push({ pathname: '/heroSelection' })
         }
     }
 
@@ -22,9 +22,8 @@ class StartApp extends React.PureComponent {
                     <TouchableOpacity
                         style={styles.startNewGameTouch}
                         hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-                        onPress={this.openFirstLocation}
+                        onPress={this.openHeroSelection}
                     >
-
                         <Text style={styles.startNewGameText}>Start New Game</Text>
                     </TouchableOpacity>
                 </View>

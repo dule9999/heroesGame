@@ -52,7 +52,7 @@ class HeroInfo extends React.PureComponent {
                 <Image style={styles.heroAvatarImage} source={heroImg} />
                 <Text style={styles.heroTextInfo}>Name: {heroName}</Text>
                 <Text style={styles.heroTextInfo}>Weapon: {weapon.name} +{weapon.dmg}</Text>
-                <Text style={styles.heroTextInfo}>Armor: {armor.name} +{armor.defense}</Text>
+                <Text style={styles.heroTextInfo}>Armor: {armor.name} +{armor.def}</Text>
                 <Text style={{ marginTop: 20, alignSelf: 'center', fontSize: 24 }}>Hero Stats</Text>
                 <Text style={styles.heroTextInfo}>Strength: {stats.str}</Text>
                 <Text style={styles.heroTextInfo}>Dexterity: {stats.dex}</Text>

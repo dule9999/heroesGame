@@ -42,8 +42,6 @@ class Location extends React.PureComponent {
                     </TouchableOpacity>
                 </View>
                 <View style={{ flex: 1, alignItems: 'center' }}>
-
-
                     <View style={{ alignItems: 'center' }}>
                         <Text style={{ fontSize: 24 }}>{this.state.locationName}</Text>
                     </View>

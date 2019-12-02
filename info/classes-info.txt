@@ -1,0 +1,32 @@
+CLASSES
+
+Roles: Tank, DPS, Heal, Buffer, Debuffer 
+Hybrid Roles: Tank + DPS, Tank + Heal, DPS + Heal, etc.
+
+1. Zealot, roles: Tank, Buffer (Skill Trees: 1. Tank, 2. Tank + Buff, 3. Buff)
+ description: A holy warrior dressed in plate armor, sent by the gods to strike fear
+ into the hearts of infidels. His faith gives him power to endure attacks and provide
+ magical resistance to his companions.
+
+2. Trickster, roles: Debuffer, DPS (Skill Trees: 1. Debuff, 2. DPS, 3. Combination)
+ description: Illusions, smoke and deceit are trickster's tools. Useful to have in
+ any group of adventurers, so that any attacker that tries his luck with them will be redirected, 
+ distracted or even poisoned.
+
+3. Witch Doctor, roles: Heal, Buff, Debuff (Skill Trees: 1. Heal, 2. Buff, 3. Debuff)
+ description: A medicine man of the far tribes, who received passed down knowledge about
+ herbal remedies and rituals of the old.
+
+4. Spellbinder, roles: Only DPS (Skill Trees: 1. Fire, 2. Ice, 3. Storm)
+ description: Binding the elements of nature, fire, ice and storm, this class can seriously
+ harm the group's opponents, sometimes even disintegrating them.
+
+5. Druid, roles: Tank, DPS, Heal (Skill Trees: 1. Tank(Earth), 2. DPS(Wind), 3. Heal(Water))
+ description: The communer with forest and mountain spirits, half human, half animal - the druid, is a 
+ versatile ally, that can take any role and be proficient in it.
+ 
+6. Knight, roles: Tank, DPS (Skill Trees: 1. Tank, 2. Tank + DPS, 3. DPS)
+
+7. Mystic, roles: DPS, Heal, Buff (Skill Trees: 1. DPS, 2. Heal, 3. Buff)
+
+8. 
